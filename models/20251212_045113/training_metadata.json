@@ -1,0 +1,48 @@
+{
+  "model_name": "Reply Predictor (LR + RF)",
+  "model_version": "20251212_045113",
+  "trained_at": "2025-12-11T23:51:13.616455+00:00",
+  "csv_path": "c:\\Users\\hamza\\Downloads\\Final Email Dataset.csv",
+  "total_samples": 981,
+  "training_samples": 666,
+  "validation_samples": 118,
+  "test_samples": 197,
+  "validation_metrics": {
+    "accuracy": 0.6101694915254238,
+    "precision": 0.4883720930232558,
+    "recall": 0.4666666666666667,
+    "f1_score": 0.4772727272727273,
+    "roc_auc": 0.6252663622526636,
+    "confusion_matrix": [
+      [
+        51,
+        22
+      ],
+      [
+        24,
+        21
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.5989847715736041,
+    "precision": 0.47368421052631576,
+    "recall": 0.48,
+    "f1_score": 0.4768211920529801,
+    "roc_auc": 0.6332786885245902,
+    "confusion_matrix": [
+      [
+        82,
+        40
+      ],
+      [
+        39,
+        36
+      ]
+    ]
+  },
+  "model_weights": {
+    "logistic_regression": 0.4,
+    "random_forest": 0.6
+  }
+}
